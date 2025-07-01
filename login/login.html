@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login - Task Management System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo"><a href=".././index.html">Task Mangment System</a></div>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../login/dashboard/task/task.html">Tasks</a>
+      <button class="login-btn">Login</button>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="login-form">
+      <h2>Login to your account<span>*</span></h2>
+      <input type="email" id="email" placeholder="enter your email" required />
+      <input type="password" id="password" placeholder="enter your password" required />
+      <p>Don't have an account ? <a href="../register/index.html">Register</a></p>
+      <button onclick="login(event)" type="submit">Login</button>
+    </div>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Profile</title>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h2> <a href="../../index.html">Task Mangment System</a></h2>
+      <nav>
+        <ul>
+          <li><span>📊</span> <a href="../dashboard/dashboard.html"> Dashboard</a> </li>
+          <li><span>✅</span><a href="../dashboard/task/task.html"> Tasks</a> </li>
+          <li class="active"><span>👤</span> My Profile</li>
+        </ul>
+      </nav>
+
+      <strong id="logout">↩ Logout</strong>
+    </aside>
+
+    <main class="main-content">
+      <header class="header">
+        <nav>
+          <a href="/index.html">Home</a>
+          <a href=".././dashboard/task/task.html" class="active-link">Tasks</a>
+        </nav>
+        <div class="user-info">
+          <img src="" alt="User" id="image1212">
+          <div id="btn">
+         <span id="displayName" style="font-size: 19px; font-weight: 400;">Kashan Adnan</span><br>
+
+            <small>User Account</small>
+          </div>
+        </div>
+      </header>
+      <section class="profile-section">
+        <div class="profile-photo">
+          <label for="fileInput">
+            <img id="image12" src="/WhatsApp Image 2025-06-23 at 04.02.23_5b5c4f25.jpg" alt="Profile Image">
+            <p>Change<br />your photo</p>
+          </label>
+          <input type="file" id="fileInput" accept="image/*" hidden />
+        </div>
+
+        <form class="profile-form" id="profileForm">
+          <h2>Edit Your Profile<span class="star">*</span></h2>
+          <input type="text" id="name" value="Kashan Adnan" />
+          <input type="email" id="email" value="kashan@gmail.com" />
+          <input type="text" id="idNumber" value="12" />
+          <button type="submit">Edit</button>
+        </form>
+      </section>
+    </main>
+  </div>
+
+  <script>
+ 
+
+  </script>
+</body>
+<script src="script.js"></script>
+</html>
